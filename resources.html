@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Women who code!</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="main.css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&family=Inter:wght@200&family=Silkscreen&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Women who code!</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link" href="./resources.html">Resources</a>
+              <a class="nav-link" href="./history.html">History</a>
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <br/>
+    <br/>
+
+          <h1>Resources</h1>
+          <div class="introText">
+          <h5>
+            There are a great number of resources to get women into coding.
+          </h5>
+          </div>
+
+      <br />
+      <br />
+
+      <div class="websiteCluster">
+      <div class="websiteText">
+        <h5>Code First Girls</h5>
+        <p>
+          Code First Girls provides free courses to help women break into tech. 
+        </p>
+      </div>
+      <a href="https://codefirstgirls.com/" target="_blank">
+      <img
+        class="websiteImage"
+        src="./images/codeFirstGirls.png"
+        alt="Code First Girls Website"
+      />
+      </a>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="websiteCluster">  
+      <div class="websiteText">
+        <h5>W3 Schools</h5>
+        <p>
+          W3 Schools is a great resource for learning to code
+        </p>
+      </div>
+        <a href="https://www.w3schools.com/" target="_blank">
+      <img
+        class="websiteImage"
+        src="./images/SheCodes.jpeg"
+        alt="W3 Schools Website"
+      />
+    </a>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="websiteCluster">
+      <div class="websiteText">
+        <h5>Youtube</h5>
+        <p>
+          Youtube is full of tutorials with lessons for beginners 
+        </p>
+      </div>
+      <a href="https://www.youtube.com/" target="_blank">
+        <img
+        class="websiteImage"
+        src="./images/Youtube.png"
+        alt="Youtube Website"
+      />
+      </a>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="websiteCluster">  
+      <div class="websiteText">
+        <h5>Odin Project</h5>
+        <p>
+          Odin Project has extensive free courses for beginners 
+        </p>
+      </div>
+      <a href="https://www.theodinproject.com/" target="_blank">
+      <img
+        class="websiteImage"
+        src="./images/OdinProject.png"
+        alt="Odin Project Website"
+      />
+      </a>
+      </div>
+
+      <br />
+    
+    </main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593</button>
+    <script>
+        mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+
+    <footer class="titleBlock">
+      <p>👩‍💻 proudly coded by group 6 👩‍💻</p>
+    </footer>
+  </body>
+</html>
